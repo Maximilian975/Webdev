@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    background: #010a16;
+}
+.container {
+    text-align: center;
+}
+header {
+    background-color: #010a16;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header nav h1 {
+    font-size: xx-large;
+    color: beige;
+}
