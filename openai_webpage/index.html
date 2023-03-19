@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature and Moisture Data</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Temperature and Moisture Data</h1>
+  <div class="container">
+    <div class="tab-container">
+      <button class="tab active" data-dataset="temperature">Temperature</button>
+      <button class="tab" data-dataset="moisture">Moisture</button>
+    </div>
+    <div class="daterange-container">
+      <div class="daterange">
+        <label class="daterange-label" for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date" />
+      </div>
+      <div class="daterange">
+        <label class="daterange-label" for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date" />
+      </div>
+    </div>
+    <div class="chart-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
